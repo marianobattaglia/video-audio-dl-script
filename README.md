@@ -3,7 +3,12 @@
 Scripts locales para descargar MP4 o MP3 usando `yt-dlp`.
 
 ## Windows
-Doble click en `descargar_windows.ps1`.
+Doble click en `descargar_windows.bat`. El lanzador ejecuta el script con una política temporal para ese proceso de PowerShell; no cambia la política del sistema ni la de tu usuario.
+
+También puedes ejecutarlo desde PowerShell:
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\descargar_windows.ps1"
+```
 
 ## macOS
 Doble click en `descargar_macos.command`.
