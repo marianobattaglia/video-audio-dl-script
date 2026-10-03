@@ -1,0 +1,12 @@
+{
+  "name": "video-audio-downloader-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser interface for the project's yt-dlp download options",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
